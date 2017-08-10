@@ -1,0 +1,21 @@
+# Site settings
+title: CLI Gem (Herbal Remedies)
+header-img: img/home-bg.png
+email: abaldioceda@gmail.com
+copyright_name: Ary770
+description: > # this means to ignore newlines until "baseurl:"
+  The Journey 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Ary770
+learn_profile: Ary770
+email_username: abaldioceda@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
