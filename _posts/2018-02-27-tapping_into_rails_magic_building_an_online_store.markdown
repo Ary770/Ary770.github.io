@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tapping Into Rails Magic (Building an Online Store)"
-date:       2018-02-27 21:52:25 +0000
+date:       2018-02-27 16:52:25 -0500
 permalink:  tapping_into_rails_magic_building_an_online_store
 ---
 
