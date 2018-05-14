@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails and jQuery Goodness Part II"
-date:       2018-05-14 18:45:41 +0000
+date:       2018-05-14 14:45:41 -0400
 permalink:  rails_and_jquery_goodness_part_ii
 ---
 
@@ -105,17 +105,17 @@ Now, you should know there are several ways of doing this. In this case, I chose
 
 Once the request is made, and the server successfully responds with the data we wanted (assuming everything goes as planned) we can manipulate the data and append it to the page. Again, this can be done in many different ways but here are the steps I followed: 
 
-1. Get all the comments nested under the item.
+**1. Get all the comments nested under the item.**
 
 (Bear in mind that every API is different and we need to know beforehand how to navigate through the JSON object.)
 
 `var comments = responseData['comments'];`
 
-2. Create a variable pointing to an empty string to later populate with the data we want to display on the page.
+**2. Create a variable pointing to an empty string to later populate with the data we want to display on the page.**
 
 `var commentsList = ' ';`
 
-3. Iterate through all the comments and create a new JS Model Object for each comment.
+**3. Iterate through all the comments and create a new JS Model Object for each comment.**
 
 `var comment = new Comment(commentData);`
 
@@ -150,13 +150,13 @@ As you can see, I added some prototype methods as well to be able to access and 
 
 Which takes us to the next step:
 
-4. Create an HTML string formatting the comment data and add each string to our commentsList variable.
+**4. Create an HTML string formatting the comment data and add each string to our commentsList variable.**
 
 `commentsList += comment.buildHtml();`
 
 `buildHtml() ` introspects on the comment instance and builds an HTML string using template literals.
 
-5. Now that we have all of our adequately formatted comments we can alter the HTML on the page and add our comments!
+**5. Now that we have all of our adequately formatted comments we can alter the HTML on the page and add our comments!**
 
 `$('#js-view-comments').html(commentsList);`
 
