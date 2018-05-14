@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails and jQuery Goodness Part I"
-date:       2018-05-14 18:23:05 +0000
+date:       2018-05-14 14:23:06 -0400
 permalink:  rails_and_jquery_goodness_part_i
 ---
 
@@ -18,4 +18,5 @@ Well first and foremost, jQuery is just a JavaScript library. So it's essentiall
 
 So enough talking, let's look at some code!
 
+[http://ary770.com/rails_and_jquery_goodness_part_ii](http://)
 
