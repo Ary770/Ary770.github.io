@@ -70,6 +70,7 @@ Then, we attach an event listener to the link with the id of 'js-comments' that 
 ```
 $('#js-comments').click(function(event){
 //Some code...
+});
 ```
 
 Once the element is clicked we first need to prevent the default action of the link tag for our code to be able to run properly: 
