@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Rails and jQuery Goodness Part II"
+title:      "Rails and jQuery/Ajax Goodness Part II"
 date:       2018-05-14 14:45:41 -0400
 permalink:  rails_and_jquery_goodness_part_ii
 ---
