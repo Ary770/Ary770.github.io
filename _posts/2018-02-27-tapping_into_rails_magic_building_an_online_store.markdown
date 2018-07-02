@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Tapping Into Rails Magic (Building an Online Store)"
+title:      "Building an Online Store with Rails"
 date:       2018-02-27 16:52:25 -0500
 permalink:  tapping_into_rails_magic_building_an_online_store
 ---
