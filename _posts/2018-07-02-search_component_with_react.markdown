@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Search Component With React "
-date:       2018-07-02 21:27:59 +0000
+date:       2018-07-02 17:27:59 -0400
 permalink:  search_component_with_react
 ---
 
@@ -47,6 +47,7 @@ As you can see, the purpose of this component is to display a <Link/> element wi
 
 Then we have the HerbShow container:
 
+```
 import React from 'react';
 import { connect } from 'react-redux';
 import PanelWrapper from '../components/PanelWrapper';
@@ -77,6 +78,7 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 export default connect(mapStateToProps)(HerbShow);
+```
 
 This container connects to the State (managed by Redux), finds the herb that matches the id by introspecting on the parameters of the route, the 'herbId', and creates a <PanelWrapper/> to display the data.
 
@@ -160,7 +162,7 @@ Let's break down this function.
 
 1. Get the value of the input:
 
-const text = event.target.value
+`const text = event.target.value`
 
 2. Since I only want to display data if the user types something, we'll wrap the code into in a conditional statement: 
 
