@@ -14,7 +14,8 @@ The first idea that comes to mind would be to make a fetch request to the API wh
 
 So the route I took was to make a single call to the API, fetching all the data we need for the application and handle the search on the client side. 
 
-The way the app is wired up is a bit complex (as most react applications are in my opinion) so bear with me.
+The way the app is wired up is a bit complex so for the purposes of this blog, I'll illustrate the search feature without the Redux state management middleware, even though it would be best practice to abstract the logic from the search component and handle it in the reducers as I did in the actual application. 
+
 
 First, we have the Herbs component, which is a simple, functional component that looks like this:
 
