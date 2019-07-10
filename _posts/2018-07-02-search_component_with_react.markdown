@@ -42,7 +42,7 @@ const Herbs = (props) => {
 export default Herbs;
 ```
 
-As you can see, the purpose of this component is to display a <Link/> element with a nested route, of all the herbs that are being passed as props to the component. 
+As you can see, the purpose of this component is to display a div element with a nested route, of all the herbs that are being passed as props to the component. 
 
 Then we have the HerbShow container:
 
@@ -79,7 +79,7 @@ const mapStateToProps = (state, ownProps) => {
 export default connect(mapStateToProps)(HerbShow);
 ```
 
-This container connects to the State (managed by Redux), finds the herb that matches the id by introspecting on the parameters of the route, the 'herbId', and creates a <PanelWrapper/> to display the data.
+This container connects to the State (managed by Redux), finds the herb that matches the id by introspecting on the parameters of the route, the 'herbId', and creates a PanelWrapper to display the data.
 
 Once we have these two components in place, we can code our Search Container:
 
@@ -226,5 +226,5 @@ Finally, if or when the text is deleted to perform a new search, I would like th
  }
 ```
 
-With these two lines of code, we can 1) clear the <Herbs/> components that are being rendered conditionally and 2) clear the <ShowHerb/> component that is being displayed based on the route params.
+With these two lines of code, we can 1) clear the Herbs components that are being rendered conditionally and 2) clear the ShowHerb component that is being displayed based on the route params.
 
