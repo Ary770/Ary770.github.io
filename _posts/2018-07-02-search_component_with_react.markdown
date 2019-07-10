@@ -10,9 +10,7 @@ One of the features I incorporated in my [Herbal Remedies App](http://https://gi
 
 There are a few ways to accomplish this. 
 
-The way the app is wired up is a bit complex so for learning purposes, I'll illustrate the search feature without the Redux state management middleware, even though it would be best practice to abstract the logic from the search component and handle it in the reducers as I did in the actual application. 
-
-So the route I took was to make a single call to the API, fetching all the data we need for the application and handle the search on the client side. 
+The route I took was to make a single call to the API, fetching all the data we need for the application and handle the search on the client side. 
 
 The way the app is wired up is a bit complex so for the purposes of this blog, I'll illustrate the search feature without the Redux state management middleware, even though it would be best practice to abstract the logic from the search component and handle it in the reducers as I did in the actual application. 
 
